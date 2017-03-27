@@ -38,7 +38,7 @@ public class GitHub1WC {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("hadoop.home.dir", "C:\\Users\\anirudh\\Desktop\\Programs");
+//		System.setProperty("hadoop.home.dir", "C:\\Users\\anirudh\\Desktop\\Programs");
 
 		if (args.length < 1) {
 			System.err
@@ -58,7 +58,7 @@ public class GitHub1WC {
 		System.out.println(counter);
 //		counter.saveAsTextFile(args[1]);
 //		counter.saveAsTextFile("Itversity_WC.txt");
-		counter.saveAsTextFile("C:\\Users\\anirudh\\Desktop\\Itversity_WC");
+		counter.saveAsTextFile("/home/cloudera/eclipseOP/wcOP");
 
 	}
 }
